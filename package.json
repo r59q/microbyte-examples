@@ -1,0 +1,17 @@
+{
+	"name": "microbyte-examples",
+	"version": "0.1.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"start": "tsc && node index.js"
+	},
+	"author": "A. Malthe Henriksen",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.0.2"
+	},
+	"dependencies": {
+		"microbyte": "file:../microbyte"
+	}
+}
