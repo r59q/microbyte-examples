@@ -30,5 +30,5 @@
 
 <p>Connect via bluetooth to a microbit.</p>
 <p>Enter the name of microbit</p>
-<input bind:value={microbitName} />
+<input bind:value={microbitName} placeholder="Name of microbit" />
 <button on:click={onConnectButtonClick}>Click me to connect</button>
